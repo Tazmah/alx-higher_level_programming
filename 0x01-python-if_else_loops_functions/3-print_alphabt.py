@@ -1,8 +1,4 @@
 #!/usr/bin/python3
-q = 113
-e = 101
-i = 97
-
-for i <= 122 && i != q && i != e:
-    print(f"{i}")
-    i += 1
+for letter in range(97, 123):
+    if chr(letter) != 'q' and chr(letter) != 'e':
+        print("{}".format(chr(letter)), end="")
