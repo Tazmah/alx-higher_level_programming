@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 a = 97
-z = 122
-for a <= z:
-    print(f"{a}")
-    a += 1
+z = 123
+for c in range(a, z):
+    print(chr(c), end = "")
